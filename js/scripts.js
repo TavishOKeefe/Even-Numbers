@@ -1,8 +1,7 @@
 function numbers(even){
   var evenNumbers = [];
-  // console.log(evenNumbers);
   for (var i = 0; i <= even; i++){
-    if(i % 2 !== 0){
+    if(i % 2 === 0){
       evenNumbers.push(i);
     }
   }
